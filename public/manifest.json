@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "ABN validator",
+  "name": "Client-Side ABN validator",
   "icons": [
     {
       "src": "favicon.ico",

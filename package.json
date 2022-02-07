@@ -2,7 +2,9 @@
   "name": "abn_validation_and_lookup",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
+    "@chakra-ui/react": "^1.8.1",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -10,6 +12,8 @@
     "@types/node": "^16.11.21",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
+    "axios": "^0.25.0",
+    "is-valid-abn": "^1.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -19,7 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "cucumber-js test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,5 +43,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.18.1",
+    "cucumber": "^7.0.0-rc.0",
+    "playwright": "^1.18.1"
   }
 }
