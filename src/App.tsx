@@ -3,7 +3,6 @@ import "./App.css";
 import isValidABN from "is-valid-abn";
 import { Button, Heading, Stack, Text } from "@chakra-ui/react";
 import axios from "axios";
-import constants from "./constants.json";
 import { Steps } from "intro.js-react";
 import "intro.js/introjs.css";
 
