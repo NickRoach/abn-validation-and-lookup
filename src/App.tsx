@@ -53,7 +53,7 @@ function App() {
 
   const ABNLookup = async (ABN: string) => {
     const response = await axios.get(
-      `${constants["ABN_LOOKUP_URL"]}?guid=${constants.API_GUID}&abn=${ABN}`
+      `${process.env.REACT_APP_ABN_LOOKUP_URL}?guid=${process.env.REACT_APP_API_GUID}&abn=${ABN}`
     );
     return JSON.parse(response.data.slice(9, response.data.length - 1));
   };
