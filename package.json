@@ -2,7 +2,7 @@
   "name": "abn_validation_and_lookup",
   "version": "0.1.0",
   "private": true,
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "@chakra-ui/react": "^1.8.1",
     "@testing-library/jest-dom": "^5.16.1",
