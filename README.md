@@ -1,4 +1,4 @@
-#About this app
+##About this app
 
 This is a very simple react app that I made to demonstrate to my team the possibilities of looking up the business names associated with an ABN
 
@@ -9,7 +9,7 @@ The api key and the api URL are loaded from a .env file so that they are kept se
 I used introJs to make a tour feature for the page as another demo to my team of the possibilities for the app we are building. There is a button the page that triggers the tour
 
 
-To run the app:
+##To run the app:
 
 run ```npm i``` to install dependencies
 
